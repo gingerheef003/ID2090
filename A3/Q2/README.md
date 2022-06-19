@@ -1,4 +1,4 @@
-#Question 2
+# Question 2
 
 ### NAME
 **mazerunner.py** - create labyrinth from file, print it and finds solution for it.
