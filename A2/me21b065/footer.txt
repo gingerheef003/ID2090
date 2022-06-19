@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -e "---------------------------------------------------------------\n"
+
+echo -e "\t\t\t\t\t\tTotal: " $1 "\n"
+echo -e "\t\tThank you using our services! :)\n"

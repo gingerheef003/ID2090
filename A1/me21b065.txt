@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Header for visuals..
+echo -e "\n  Second-Saturdays in Academic Year  $1" 
+echo -e "-------------------------------------------\n"
+
+
+# Printing second-saturdays from Apr-Dec of Year
+year=$1
+for i in {4..12}
+do
+	x=`date -d "$year-$i-1" +"%w"`;
+	echo -n -e "\t\t"
+	date -d "$year-$i-$((14-x))" +"%e/%b/%Y";
+done
+
+# Printing second-saturdays from Jan-Mar of continued Year
+year=$(($year+1))
+for i in {1..3}
+do
+	x=`date -d "$year-$i-1" +"%w"`;
+	echo -n -e "\t\t"
+	date -d "$year-$i-$((14-x))" +"%e/%b/%Y"
+done
+
+echo -e "\n"
