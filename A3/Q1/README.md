@@ -9,7 +9,7 @@
 ```
 
 ### DESCRIPTION
-**nthdigit.py** takes in two arguments. The first is any simple *expression* which may include *\*,/,+,-* operands and constants *pi* and *e*. The second is *n* the number of digits after decimal point which is to be found.
+**nthdigit.py** takes in two arguments. The first is any simple *expression* which may include  *\*,/,+,-*  operands and constants *pi* and *e*. The second is *n*, the number of digits after decimal point which is to be found.
 
 
 ### EXAMPLE
