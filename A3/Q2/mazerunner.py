@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 import matplotlib.pyplot as plt
@@ -60,7 +60,6 @@ for i in range(len(H[0])):
 
 frmL = 0
 frmR = 0
-
 pathfound = True
 
 def pathfinder(x,y):
@@ -106,5 +105,5 @@ if pathfound:
             plt.plot([y[0]-hf,p[x+1][0]-hf],[y[1]-hf,y[1]-hf], c='y', lw=lwp)
 
     plt.plot([p[-1][0]-hf,p[-1][0]-hf],[p[-1][1]-hf,p[-1][1]+hf], c='y', lw=lwp)
-
-fig.savefig('maze_solved.png')
+    
+    fig.savefig('maze_solved.png')
