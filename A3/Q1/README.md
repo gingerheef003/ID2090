@@ -1,19 +1,18 @@
 # Question 1 
 
-## NAME
+### NAME
 nthdigit.py - prints the n digit of a simple expression
 
-## SYNOPSIS
+### SYNOPSIS
 ```	
 ./nthdigit.py expression n
 ```
 
-## DESCRIPTION
-```
+### DESCRIPTION
 The programme takes in two arguments. The first is any simple expression which may include *,/,+,- operands or constants pi and e. The second is the number of digits after decimal point which is to be found.
-```
 
-## EXAMPLE
+
+### EXAMPLE
 ```
 ./nthdigit.py 2.5*pi 75
 ```

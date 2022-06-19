@@ -1,10 +1,12 @@
-## NAME
+#Question 2
+
+### NAME
 **mazerunner.py** - create labyrinth from file, print it and finds solution for it.
 
-## SYNOPSIS
+### SYNOPSIS
 ```
 ./mazerunner.py maze.txt
 ```
 
-## DESCRIPTION
+### DESCRIPTION
 **mazerunner.py** takes file name as argument. The file contains arrays required for maze creation. It creates file, "maze.png" containing pictorial representation of the labyrinth. It finds a solution to the maze if present and creates file, "maze_solution.png", containing pictorial represention of the solution to labyrinth.
